@@ -1,0 +1,6 @@
+{
+	"zipfile": "zipconfig.json",
+	"with": {
+		"poem": "metadata.json"
+	}
+}

@@ -1,0 +1,22 @@
+var sample_gd8b20nyv8vw = {
+	files: {
+		'assets/epe/texts/end_poem/en_us.txt': {
+			choice: 'poem'
+		},
+		'assets/epe/texts/end_poem/zh_cn.txt': {
+			base64: 'MTE0NTE0MTkxOTgxMA=='
+		},
+		"data/": null
+	},
+	choices: {
+		poem: [{
+			raw: {
+				raw: '114514'
+			}
+		}, {
+			raw: {
+				raw: '1919810'
+			}
+		}]
+	}
+}
