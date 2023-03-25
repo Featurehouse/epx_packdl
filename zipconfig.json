@@ -22,6 +22,9 @@
 	},
 	"assets/end_poem/texts/end_poem/zh_tw.txt": {
 		"file": "nopool/zh_tw.txt"
+	},
+	"version.txt": {
+		"file": "version.txt"
 	}
 }
  
