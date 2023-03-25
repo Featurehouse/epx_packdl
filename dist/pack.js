@@ -13,6 +13,13 @@ var args = (function(s) {
 })(window.location.search);
 console.log(args);
 
+function p_mdecode(i) {
+	let a = Base64.toUint8Array(i);
+	a = inflate(a);
+	let dec = new TextDecoder('utf-8');
+	return JSON.parse(dec.decode(a));
+}
+
 function p_download(m, prefix) {
 	if (!prefix) prefix = '';
 	else if (!prefix.endsWith('-')) prefix += '-';

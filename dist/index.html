@@ -2,16 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>114514</title>
+<title>Downloading...</title>
 </head>
 <body>
 <script src="https://cdn.bootcdn.net/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="https://cdn.bootcdn.net/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/pako/2.1.0/pako_inflate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-base64@3.7.5/base64.min.js"></script>
 <script src="./pack.js"></script>
 <script src="./sample.js"></script>
 <script>
 if (!args.poem) args['poem'] = 'random';
-p_download(sample_gd8b20nyv8vw, "sample");
+p_download(p_mdecode(sample_gd8b20nyv8vw), "epx-recommended-pack");
 </script>
 </body>
 </html>
