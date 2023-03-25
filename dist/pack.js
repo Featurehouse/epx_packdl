@@ -15,7 +15,7 @@ console.log(args);
 
 function p_mdecode(i) {
 	let a = Base64.toUint8Array(i);
-	a = inflate(a);
+	a = pako.inflate(a);
 	let dec = new TextDecoder('utf-8');
 	return JSON.parse(dec.decode(a));
 }
