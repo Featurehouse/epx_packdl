@@ -7,5 +7,20 @@
 	},
 	"assets/end_poem_extension/texts/end_poem/zh_hk.txt": {
 		"file": "nopool/zh_hk.txt"
+	},
+	"assets/minecraft/texts/splash_modify.json": {
+		"base64": "eyJhZGQiOlsi0J_RgNC40LLQtdGCINCg0L7RgdGB0LjRjyEiXX0="
+	},
+	"assets/end_poem_extension/texts/postcredits/zh_hk.txt": {
+		"file": "nopool/postcredits.zh_hant.txt"
+	},
+	"assets/end_poem_extension/texts/postcredits/zh_tw.txt": {
+		"file": "nopool/postcredits.zh_hant.txt"
+	},
+	"assets/end_poem_extension/texts/postcredits/zh_cn.json": {
+		"file": "nopool/postcredits.zh_cn.txt"
+	},
+	"assets/end_poem/texts/end_poem/zh_tw.txt": {
+		"file": "nopool/zh_tw.txt"
 	}
 }
