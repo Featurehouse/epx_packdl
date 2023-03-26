@@ -11,20 +11,29 @@
 	"assets/minecraft/texts/splash_modify.json": {
 		"file": "nopool/splash_modify.json"
 	},
-	"assets/end_poem_extension/texts/postcredits/zh_hk.txt": {
+	"assets/end_poem_extension/recommended/postcredits/zh_hk.txt": {
 		"file": "nopool/postcredits.zh_hant.txt"
 	},
-	"assets/end_poem_extension/texts/postcredits/zh_tw.txt": {
+	"assets/end_poem_extension/recommended/postcredits/zh_tw.txt": {
 		"file": "nopool/postcredits.zh_hant.txt"
 	},
-	"assets/end_poem_extension/texts/postcredits/zh_cn.txt": {
+	"assets/end_poem_extension/recommended/postcredits/zh_cn.txt": {
 		"file": "nopool/postcredits.zh_cn.txt"
+	},
+	"assets/end_poem_extension/recommended/postcredits/en_us.txt": {
+		"raw": ""
 	},
 	"assets/end_poem_extension/texts/end_poem/zh_tw.txt": {
 		"file": "nopool/zh_tw.txt"
 	},
 	"version.txt": {
 		"file": "version.txt"
+	},
+	"assets/end_poem_extension/recommended/wakeup.txt": {
+		"raw": "\n\n\u00a73Wake up..."
+	},
+	"assets/end_poem_extension/post_postcredits.json": {
+		"file": "nopool/post_postcredits.json"
 	}
 }
  

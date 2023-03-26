@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 cd $(dirname $0)
-mv dist/sample.js dist/sample.js.old
+if [ -e dist/sample.js ] ; then
+ mv dist/sample.js dist/sample.js.old
+fi
 ./gendist.py gen.json dist/sample.js
